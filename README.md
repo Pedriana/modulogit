@@ -1,3 +1,1 @@
-My name is Pedriana
-
-alteração feita no master
+Meu primeiro projeto git.
