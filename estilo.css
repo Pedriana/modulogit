@@ -9,7 +9,46 @@ header{
 }
 .container{
 	width: 1200px;
-	margin:0 auto;
+	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
+	
+}
+#eletros{
+	padding: 80px 0;
+}
+article{
+	border:1px solid #95a4a5;
+	width: 370px;
+	padding: 10px;
+}
+article > h2{
+	background-color: #40cd26;
+	color: #fff;
+	text-align: center;
+	line-height: 2.5;/*2.5 o tamanho da altura*/
+	margin: -10px -10px 0 -10px;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+article > div{
+	text-align: center;
+	font-size: 28px;
+	margin: 20px 0;	
+}
+
+article >ul{
+	list-style: none;	
+	padding: 0;
+	margin: 20px;
+}
+article > ul >li{
+	text-align: center;
+}
+
+article> footer > a{
+	background-color: #183687;
+	color: #fff;
+	text-decoration: none;	
 }
