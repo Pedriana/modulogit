@@ -17,11 +17,21 @@ header{
 #eletros{
 	padding: 80px 0;
 }
+#eletros .container::after{
+	content: "";
+	display: block;
+	clear: both;
+}
 article{
 	border:1px solid #95a4a5;
 	width: 370px;
 	padding: 10px;
+	float: left;	
+	margin-right: 30px;
+	border-radius: 12px;
+	
 }
+
 article > h2{
 	background-color: #40cd26;
 	color: #fff;
@@ -30,6 +40,7 @@ article > h2{
 	margin: -10px -10px 0 -10px;
 	font-weight: normal;
 	font-size: 28px;
+	border-radius:12px 12px 0 0; 
 }
 
 article > div{
@@ -37,6 +48,7 @@ article > div{
 	font-size: 28px;
 	margin: 20px 0;	
 }
+
 
 article >ul{
 	list-style: none;	
@@ -47,8 +59,20 @@ article > ul >li{
 	text-align: center;
 }
 
-article> footer > a{
-	background-color: #183687;
-	color: #fff;
-	text-decoration: none;	
+article>footer{
+	text-align: center;
+	margin: 30px 0px 10px 0 ;
 }
+article> footer > a{
+	background-color: #45855e;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+article> footer > a:hover{
+	background-color: #40cd26;
+}
+
+
