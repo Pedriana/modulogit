@@ -1,5 +1,15 @@
 /* Formatação da página index.html*/
 
+*{
+	box-sizing: border-box;
+}
 header{
+	height: 60px;
 	border-bottom: 1px solid #ccc;
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
