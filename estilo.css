@@ -1,9 +1,5 @@
 /* Formatação da página index.html*/
 
-h1{
-	color: blue;
-}
-
-p{
-	color: green;
+header{
+	border-bottom: 1px solid #ccc;
 }
